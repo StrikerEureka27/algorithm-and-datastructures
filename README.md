@@ -164,7 +164,21 @@ We define a `array` as a ordered collection of values.
 - Fibonacci with recursion. 
 - Factorial of a number with recursion. 
 
-    
+## Recursion
+
+What?
+Recursion is a problem solving technique where the solution depends on solutions to smaller instances of the same problem. (Recursion is when a function calls itself). 
+
+Why?
+It's a greate technique to simplify your solution. 
+If you find yourself breaking down your problem into smaller version of the same problem, recursion is very useful. 
+
+- Every recursive solutions needs to have a base case - a codition to terminate the recursion. 
+
+- Recursion migth simplify solving a problem but it does not always translate to a faster solution. 
+- A recursive solution may be far worse compared to an iterative solution. 
+
+
 
 
 
