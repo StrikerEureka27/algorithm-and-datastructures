@@ -179,6 +179,12 @@ If you find yourself breaking down your problem into smaller version of the same
 - A recursive solution may be far worse compared to an iterative solution. 
 
 
+## Search algorithms
+
+- Linnear search 
+- Binary search 
+- Recursive binary search
+
 
 
 
