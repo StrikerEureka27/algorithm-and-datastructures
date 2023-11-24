@@ -1,16 +1,8 @@
 /* 
-Given a sorted array of 'n' elements and a target element 't', find the index of 't' 
-in the array, return -1 if the target element is not found. 
+  Given a sorted array of 'n' elements and a target element 't', find the index of 't' 
+  in the array, return -1 if the target element is not found. 
 */
-/*
-     L           R
-  [ -5, 2, 4, 6, 10 ]
-  <  0, 1, 2, 3, 4  >
-              L   R
-  [ -5, 2, 4, 6, 10 ]
-  <  0, 1, 2, 3, 4  >
 
-*/
 
 function binarySearch(arr, target) {
   let rightIdx = arr.length - 1;
@@ -35,3 +27,5 @@ function binarySearch(arr, target) {
 console.log(binarySearch([-5, 2, 4, 6, 10], 6));
 console.log(binarySearch([-5, 2, 4, 6, 10], 10));
 console.log(binarySearch([-5, 2, 4, 6, 10, 20, 30], 4));
+
+// Big-O = O(logn)
