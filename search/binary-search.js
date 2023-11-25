@@ -1,15 +1,6 @@
 /* 
-Given a sorted array of 'n' elements and a target element 't', find the index of 't' 
-in the array, return -1 if the target element is not found. 
-*/
-/*
-     L           R
-  [ -5, 2, 4, 6, 10 ]
-  <  0, 1, 2, 3, 4  >
-              L   R
-  [ -5, 2, 4, 6, 10 ]
-  <  0, 1, 2, 3, 4  >
-
+  Given a sorted array of 'n' elements and a target element 't', find the index of 't' 
+  in the array, return -1 if the target element is not found. 
 */
 
 function binarySearch(arr, target) {
@@ -17,17 +8,19 @@ function binarySearch(arr, target) {
   let leftIdx = 0;
 
   while (leftIdx <= rightIdx) {
+    
     let middleIdx = Math.round((leftIdx + rightIdx) / 2);
 
     if (target === arr[middleIdx]) {
       return middleIdx;
-    }
+    };
 
     if (target < arr[middleIdx]) {
       rightIdx = middleIdx - 1;
     } else {
       leftIdx = middleIdx + 1;
-    }
+    };
+
   }
   return -1;
 }

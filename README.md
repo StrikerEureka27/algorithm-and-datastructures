@@ -118,6 +118,13 @@ Big-O Space Complexity:
 
 > Multiple algorithms exist for the same problem and there is not right solution, different algorithms work well under different constrainsts. 
 
+## Big-O Guide 
+
+- Calculation not dependent on input size. `O(1)`
+- 1 Loop. - `O(n)`
+- 2 Nested loops. - `O(^3)`
+- Input size reduce by half. - `O(logn)`
+
 ## Ojects and arrays 
 
 We define a `object` as a collection of a key pair value. 
