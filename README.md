@@ -192,6 +192,13 @@ If you find yourself breaking down your problem into smaller version of the same
 - Binary search 
 - Recursive binary search
 
+## Sorting algorithms
+
+- Bubble sort
+- Insertion sort
+- Quick sort
+- Merge sort
+
 
 
 
